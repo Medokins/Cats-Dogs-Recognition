@@ -12,11 +12,6 @@ overRidePickle = False
 X = pickle.load(open("X.pickle", "rb"))
 y = pickle.load(open("y.pickle", "rb"))
 
-
-
-
-
-
 if overRidePickle:
     trainingData = preprocessData(DataSets, Categories, IMG_SIZE)
     random.shuffle(trainingData)
